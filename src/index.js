@@ -1,10 +1,11 @@
 
 import  React  from  'react';;
 import  ReactDOM  from  'react-dom';
+import App from './app.jsx';
 
 
 
 ReactDOM.render(
-  <div>{"hello world"}</div>,
+  <App />,
   document.getElementById('app')
 );
